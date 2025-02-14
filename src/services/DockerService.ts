@@ -267,6 +267,7 @@ export class DockerService implements IService{
                     this.logger.error(`Hedera local node start up TERMINATED due to docker's misconfiguration`);
                     this.logger.error(SHARED_PATHS_ERROR);
                     this.logger.error(`See https://docs.docker.com/desktop/settings/mac/#file-sharing for more info.`);
+                    this.logger.error(`-- Make sure you have '/Users/<your_user>/Library/' under File Sharing Docker's Setting.`);
                     this.logger.error(`-- If you're using hedera-local as npm package - running 'npm root -g' should output the path you have to add under File Sharing Docker's Setting.`);
                     this.logger.error(`-- If you're using hedera-local as cloned repo - running 'pwd' in the project's root should output the path you have to add under File Sharing Docker's Setting.`);
                     process.exit();
