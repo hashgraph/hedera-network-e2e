@@ -51,7 +51,7 @@ jobs:
 
       - name: Update Homebrew
         run: |
-          brew update --preinstall
+          brew update
 
       - name: Install Lima
         run: |
