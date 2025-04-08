@@ -114,7 +114,7 @@ export const ACCOUNT_CREATION_STATE_INIT_MESSAGE = `${CHECK_SUCCESS} Account Cre
 export const ACCOUNT_CREATION_STARTING_SYNCHRONOUS_MESSAGE = `${LOADING} Starting Account Creation state in synchronous mode...`;
 export const ACCOUNT_CREATION_STARTING_ASYNCHRONOUS_MESSAGE = `${LOADING} Starting Account Creation state in asynchronous mode...`;
 export const ACCOUNT_CREATION_STARTING_ASYNCHRONOUS_BLOCKLIST_MESSAGE = `${LOADING} Starting Account Creation state in asynchronous mode with 1 blocklisted accounts...`;
-export const ACCOUNT_CREATION_FINISHED = `${CHECK_SUCCESS} Accounts created succefully!`;
+export const ACCOUNT_CREATION_FINISHED = `${CHECK_SUCCESS} Accounts created successfully!`;
 
 // Resource Creation State
 export const RESOURCE_CREATION_STATE_INIT_MESSAGE = `${CHECK_SUCCESS} Resource Creation State Initialized!`;
