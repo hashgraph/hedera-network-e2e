@@ -63,10 +63,10 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@hashgraph/sdk": "^2.59.0",
+    "@hashgraph/sdk": "^2.62.0",
     "csv-parser": "^3.2.0",
     "detect-port": "^1.6.1",
-    "dockerode": "^4.0.4",
+    "dockerode": "^4.0.5",
     "dotenv": "^16.4.7",
     "ethers": "^6.13.5",
     "js-yaml": "^4.1.0",
